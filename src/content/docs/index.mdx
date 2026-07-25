@@ -1,0 +1,33 @@
+---
+title: Project Vyasa
+description: Project Vyasa Landing Page
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+hero:
+  tagline: Vyasa is a language to enrich (ancient) text with semantic information.
+  image:
+    file: ../../assets/vyasa-logo.png
+  actions:
+    - text: Explore Vyasa Viewer
+      link: https://project-vyasa.github.io/vyasa-apps/
+      icon: external
+    - text: GitHub Organization
+      link: https://github.com/project-vyasa
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Projects
+
+<CardGrid>
+	<Card title="<a href='https://project-vyasa.github.io/vyasa-apps/'>Vyasa Viewer</a>" icon="laptop">
+		Experience the Vyasa Viewer. [View App](https://project-vyasa.github.io/vyasa-apps/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-apps)
+	</Card>
+	<Card title="<a href='https://project-vyasa.github.io/vyasa-docs/'>Vyasa Language and Tools</a>" icon="forward-slash">
+		Documentation referencing vyasac and other components. [Read Docs](https://project-vyasa.github.io/vyasa-docs/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-docs)
+	</Card>
+	<Card title="<a href='https://project-vyasa.github.io/vyasa-ui/'>Vyasa Design System</a>" icon="puzzle">
+		Design system demos and UI components. [View Demos](https://project-vyasa.github.io/vyasa-ui/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-ui)
+	</Card>
+</CardGrid>
