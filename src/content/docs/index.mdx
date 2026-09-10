@@ -7,8 +7,11 @@ hero:
   image:
     file: ../../assets/vyasa-logo.png
   actions:
-    - text: Explore Vyasa Viewer
+    - text: Vyasa Viewer
       link: https://project-vyasa.github.io/vyasa-apps/
+      icon: external
+    - text: Sanskrit Studio
+      link: https://project-vyasa.github.io/vyasa-apps/apps/sanskrit-studio/
       icon: external
     - text: GitHub Organization
       link: https://github.com/project-vyasa
@@ -24,10 +27,17 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 	<Card title="<a href='https://project-vyasa.github.io/vyasa-apps/'>Vyasa Viewer</a>" icon="laptop">
 		Experience the Vyasa Viewer. [View App](https://project-vyasa.github.io/vyasa-apps/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-apps)
 	</Card>
+	<Card title="<a href='https://project-vyasa.github.io/vyasa-apps/apps/sanskrit-studio/'>Sanskrit Studio</a>" icon="puzzle">
+		Sanskrit Studio is a tool for exploring Sanskrit grammar and Indic transliteration.
+		[View App](https://project-vyasa.github.io/vyasa-apps/apps/sanskrit-studio/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-apps)
+	</Card>
 	<Card title="<a href='https://project-vyasa.github.io/vyasa-docs/'>Vyasa Language and Tools</a>" icon="forward-slash">
 		Documentation referencing vyasac and other components. [Read Docs](https://project-vyasa.github.io/vyasa-docs/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-docs)
 	</Card>
 	<Card title="<a href='https://project-vyasa.github.io/vyasa-ui/'>Vyasa Design System</a>" icon="puzzle">
 		Design system demos and UI components. [View Demos](https://project-vyasa.github.io/vyasa-ui/) | [GitHub Repo](https://github.com/project-vyasa/vyasa-ui)
+	</Card>
+	<Card title="<a href='https://project-vyasa.github.io/vyutils/'>Vyasa Utilities</a>" icon="setting">
+		Utility scripts and tools for the Vyasa ecosystem. [View Utils](https://project-vyasa.github.io/vyutils/) | [GitHub Repo](https://github.com/project-vyasa/vyutils)
 	</Card>
 </CardGrid>
