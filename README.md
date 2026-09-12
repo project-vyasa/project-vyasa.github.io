@@ -44,7 +44,7 @@ Project Vyasa is modularly structured across several specialized repositories:
 | **`project-vyasa.github.io`** | **Project Portal & Organization Landing Page** (this repository). Provides an overview of the ecosystem and entry points to applications and documentation. | [Web Portal](https://project-vyasa.github.io/) • [GitHub Repo](https://github.com/project-vyasa/project-vyasa.github.io) |
 | **`vyasa`** | **Reference Implementation & Compiler**. The core Rust compiler (`vyasac`) and WASM runtime responsible for parsing `.vy` files and generating semantic graphs. | [GitHub Repo](https://github.com/project-vyasa/vyasa) |
 | **`vyasa-docs`** | **Documentation & Language Reference**. Comprehensive guides, language syntax reference, conceptual models, and authoring tutorials. | [Read Docs](https://project-vyasa.github.io/vyasa-docs/) • [GitHub Repo](https://github.com/project-vyasa/vyasa-docs) |
-| **`vyasa-apps`** | **Vyasa Viewer & Applications**. Interactive web applications including **Vyasa Viewer** (for reading and navigating semantic publications and narrative graphs) and **Sanskrit Studio** (for exploring Sanskrit grammar and Indic transliteration). | [Launch Viewer](https://project-vyasa.github.io/vyasa-apps/) • [Sanskrit Studio](https://project-vyasa.github.io/vyasa-apps/apps/sanskrit-studio/) • [GitHub Repo](https://github.com/project-vyasa/vyasa-apps) |
+| **`vyasa-apps`** | **Vyasa Viewer & Applications**. Interactive web applications including **Vyasa Viewer** (for reading and navigating semantic publications and narrative graphs) and **Sanskrit Studio** (for exploring Sanskrit grammar and Indic transliteration). | [Launch Viewer](https://project-vyasa.github.io/vyasa-apps/) • [Sanskrit Studio](https://project-vyasa.github.io/vyasa-apps/sanskrit/) • [GitHub Repo](https://github.com/project-vyasa/vyasa-apps) |
 | **`vyasa-ui`** | **UI Design System**. Reusable Svelte component library and design system tokens used across Vyasa web applications. | [View Demos](https://project-vyasa.github.io/vyasa-ui/) • [GitHub Repo](https://github.com/project-vyasa/vyasa-ui) |
 | **`vyasa-samples`** | **Sample Workspaces & Reference Texts**. Example repositories, templates, and classical reference texts modeled in Vyasa. | [GitHub Repo](https://github.com/project-vyasa/vyasa-samples) |
 | **`vyutils`** | **Vyasa Utilities**. Helper scripts, automation tools, and utilities for managing the Project Vyasa ecosystem. | [View Utils](https://project-vyasa.github.io/vyutils/) • [GitHub Repo](https://github.com/project-vyasa/vyutils) |
@@ -56,7 +56,7 @@ Project Vyasa is modularly structured across several specialized repositories:
 - **🌐 Project Landing Page**: [project-vyasa.github.io](https://project-vyasa.github.io/)
 - **📖 Documentation**: [project-vyasa.github.io/vyasa-docs](https://project-vyasa.github.io/vyasa-docs/)
 - **💻 Interactive Viewer App**: [project-vyasa.github.io/vyasa-apps](https://project-vyasa.github.io/vyasa-apps/)
-- **🕉️ Sanskrit Studio**: [project-vyasa.github.io/vyasa-apps/apps/sanskrit-studio/](https://project-vyasa.github.io/vyasa-apps/apps/sanskrit-studio/)
+- **🕉️ Sanskrit Studio**: [project-vyasa.github.io/vyasa-apps/sanskrit/](https://project-vyasa.github.io/vyasa-apps/sanskrit/)
 - **🛠️ Vyasa Utilities**: [project-vyasa.github.io/vyutils](https://project-vyasa.github.io/vyutils/)
 - **🐙 GitHub Organization**: [github.com/project-vyasa](https://github.com/project-vyasa)
 
